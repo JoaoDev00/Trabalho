@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Trabalho",
+			"path": "."
+		},
+		{
+			"name": "Pratos",
+			"path": "../Pratos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Trabalho"
+	}
+}

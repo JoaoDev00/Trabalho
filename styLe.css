@@ -1,0 +1,78 @@
+/* Estilo para o container de novidades */
+.div-novidades {
+    max-width: 100%;  /* Garante que o container ocupe toda a largura disponível */
+    width: 100%;
+}
+
+/* Estilo do botão lilás */
+.botão-lilas {
+    background-color: #9353ff;
+    color: #FFFFFF;
+    padding: 0.6rem 1.2rem; /* Ajuste de tamanho do botão */
+    border-radius: 25px; /* Bordas mais arredondadas */
+}
+
+/* Cor verde-limao */
+.verde-limao {
+    color: #DAFF01;
+}
+
+/* Estilos gerais do botão de tema */
+#theme-toggle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute; /* Para manter o botão no canto superior direito */
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+/* Estilo do botão em modo claro */
+[data-bs-theme='light'] #theme-toggle {
+    background-color: #007bff; /* Azul */
+    color: white; /* Texto branco */
+}
+
+/* Estilo do botão em modo escuro */
+[data-bs-theme='dark'] #theme-toggle {
+    background-color: #343a40; /* Cinza escuro */
+    color: white; /* Texto branco */
+}
+
+/* Estilo para as imagens dentro dos cards */
+.card-img-top {
+    height: 200px;
+    width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+    object-fit: cover; /* Faz a imagem cobrir a área sem distorcer */
+}
+
+/* Estilos para os cards */
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.card {
+    max-width: 300px;
+    margin: auto;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Estilos adicionais para o layout */
+.row {
+    gap: 1rem; /* Ajusta o gap entre os cards */
+}
